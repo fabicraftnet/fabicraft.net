@@ -1,5 +1,5 @@
 {
-  "name": "mc.fabianadrian.fi",
+  "name": "mc-fabianadrian-fi",
   "compatibility_date": "2026-01-10", // Update to the day you deploy
   "assets": {
     "directory": "./dist",
