@@ -4,7 +4,7 @@ import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://mc.fabianadrian.fi',
+  site: 'https://fabicraft.net',
 	integrations: [
 		starlight({
 			title: 'FabiCraft',
