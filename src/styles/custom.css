@@ -1,5 +1,6 @@
 :root {
     --sl-color-text-accent: #a78bfa;
+    --sl-content-width: 60rem;
 }
 
 .discord {
