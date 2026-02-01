@@ -17,7 +17,7 @@ Valitse alkuvalikosta `Moninpeli`.
 
 Lisää uusi palvelin painamalla `Lisää palvelin` -nappulaa ruudun alaosasta.
 
-Aseta palvelimen nimeksi FabiCraft ja osoitteeksi `mc.fabianadrian.fi`. Sen jälkeen paina `Valmis`.
+Aseta palvelimen nimeksi FabiCraft ja osoitteeksi `fabicraft.net`. Sen jälkeen paina `Valmis`.
 
 Valitse palvelinlistasta FabiCraft ja paina `Liity palvelimelle`.
 
