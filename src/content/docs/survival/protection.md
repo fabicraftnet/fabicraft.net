@@ -7,7 +7,7 @@ Omat rakennelmat kannattaa aina suojata, jotta muut pelaajat eivät pääse tuho
 Suojaaminen onnistuu tonttien avulla.
 
 Pelaajalla on alussa **100 tonttipalikkaa**.
-Tonttipalikoita saa lisää pelaamalla FabiCraftin survivalissa (100 per tunti).
+Tonttipalikoita saa lisää pelaamalla FabiCraftin survivalissa (100 per tunti). Vapaiden tonttipalikoiden määrä voi tarkkailla komennolla `/claimblocks`.
 
 ## Tontin luonti
 
@@ -21,6 +21,8 @@ Tämän jälkeen klikkaa vastakkaista kulmaa.
 Tontin rajat ilmestyvät nyt näkyviin merkaten, että tontti on luotu.
 
 ![claim-creation-2](../../../assets/docs/survival/protection/claim-creation-2.png)
+
+Tontin voi myös luoda komennolla `/claim <säde>`, kun kultalapio on kädessä. 
 
 ## Tontin koon muokkaus
 
@@ -46,11 +48,16 @@ Seuraavaksi klikkaa palikkaa, johon haluat kulman siirtyvän. Valmis :)
 Kulmaa siirrettäessä kultalapion täytyy olla koko ajan kädessä tai valinta nollaantuu.
 :::
 
+Tontin laajentaminen katsottuun suuntaan onnistuu myös komennolla `/extendclaim <määrä>`.
+
 ## Tonttien poisto
 
 Voit poistaa tontin seisomalla sen sisällä ja kirjoittamalla komennon `/abandonclaim`.
 Mikäli haluat poistaa kaikki tonttisi, voit tehdä sen kirjoittamalla `/abandonallclaims`.
 
+:::note
+Omistettujen tonttien listan näkee komennolla `/claimslist`.
+:::
 ## Oikeuksien jakaminen
 
 Koska rakennuksesi on nyt suojattu muilta pelaajilta, vain sinä voit rakentaa siellä.
@@ -66,6 +73,10 @@ Alla listattuna kyseiset oikeudet:
 | Pääsy | Antaa oikeuden käyttää ovia, nappuloita, vipuja yms. | `/accessortrust <pelaaja>` |
 
 Saat poistettua pelaajalta oikeudet komennolla `/untrust <pelaaja>`.
+
+:::note 
+Voit määrittää kaikkien pelaajien oikeuksia pistämällä `#public` aikaisempien komentojen `<pelaaja>` kohtaan.
+:::
 
 ## Alitontit
 
@@ -84,6 +95,33 @@ Alitontteja luodaksesi tulee sinun ottaa käyttöön alitonttitila komennolla `/
 Esim. Pelaajan tarvitsee päästä käsiksi vain muutamaan arkkuun tontin sisällä, mutta tontilla on myös muita arkkuja joihin he eivät saa koskea.
 Voit tällöin luoda alitontin, jonka sisälle voit antaa oikeudet arkkujen avaamiseen (containertrust), jolloin muut tontin arkut jäävät silti suojatuksi.
 
+Oletuksena, tontin oikeudet siirtyvät sen sisällä oleviin alitontteihin. Tämän saa vaihdettua seisomalla alatontin sisällä ja käyttämällä komentoa `/restrictclaim`.
+
 Pääset takaisin tavalliseen tonttitilaan kirjoittamalla komennon `/claim`.
 
 ![subclaims-3](../../../assets/docs/survival/protection/subclaims-3.png)
+
+
+## Ryhmät
+
+Sen sijaan, että määrittää jokaisen pelaajan oikeudet yksitellen jokaiselle tontille, voit luoda ryhmiä joille voi määrittää oikeudet. Ryhmät ovat pelaaja kohteisia, mutta hallinointi oikeudelliset voivat nähdä ja käyttää tontin omistajan ryhmiä oikeuksien antamisessa.
+
+Pelaajia saa lisättyä ryhmään komennolla `/group <ryhmä> add <pelaaja1> <pelaaja2>`. Komennolla saa lisättyä yhden tai useamman pelaajan kerralla. Jos ryhmää ei ole olemassa, se luodaan automaattisesti.
+
+Ryhmän jäseniä saa tarkkailtua komennolla `/group <ryhmä>`.
+
+Jäseniä saa poistettua komennolla `/group <ryhmä> remove <pelaaja>`. Samalla tavalla kuin lisätessä, voit poistaa yhden tai useamman jäsenen kerralla.
+
+Ryhmän saa poistettua komennolla `/group <ryhmä> delete`.
+
+Ryhmiä saa käytettyä kaikissa oikeus komennoissa korvaamalla `<pelaaja>` kohdan ryhmällä  `@<ryhmä>` muodossa.
+
+Esim. `/accessortrust  @<ryhmä>`
+
+Tontin oikeudellisia ryhmiä ja pelaajia saa tutkittua komennolla `/claiminfo`.
+
+
+## Porttikiellot
+Voit estää pelaajien tulemista tontille komenolla `/claimprivate`. Tällöin vain pelaajat joille on myönnetty oikeuksia voivat astua tontille.
+
+vaihtoehtoisesti voit antaa tietylle pelaajatte porttikiellon komennolla `/claimban ban <pelaaja>`. Porttikiellon saaneet pelaajat näkyvät komennolla `/claimban list`. Pelaajia saa päästettyä takaisin tontille komennolla `/claimban unban <pelaaja>`.

@@ -7,7 +7,8 @@ Survivalissa on monia erilaisia teleporttaustapoja siirtyä paikasta toiseen.
 Teleporttausten välillä on 3 minuutin jäähy, jonka aikana teleporttaaminen ei ole mahdollista.
 
 Pääset aina edelliseen sijaintiisi komennolla `/back`.
-
+## Trapped
+Jos päädyt jumiin toisen pelaajan tontilla, voit teleportata tontin ulkopuolelle komennolla `/trapped`.
 ## Spawn
 
 Pääset spawnille aina takaisin komennolla /spawn.
