@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@astrojs/starlight": "0.37.x",
-    "astro": "5.17.x",
+    "astro": "5.18.x",
     "sharp": "0.34.x"
   },
   "devDependencies": {
