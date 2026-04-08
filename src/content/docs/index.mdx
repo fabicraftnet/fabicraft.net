@@ -16,7 +16,16 @@ hero:
       variant: minimal
 ---
 import SplashBackgroundImage from '../../components/SplashBackgroundImage.astro';
+import { LinkCard } from '@astrojs/starlight/components';
 
 <SplashBackgroundImage/>
 
-<iframe class="discord" src="https://discord.com/widget?id=1459212137732767888&theme=dark" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+<div class="split">
+  <div class="full">
+    <h1>Hae mukaan ylläpitoon 🧹</h1>
+    <p>FabiCraft pyörii täysin <s>orja</s> vapaaehtoistyöllä. Kaikilta hakijoilta vaaditaan ensisijaisesti ikää vähintään 16 vuotta. Yhteydenotto tapahtuu Discordin välityksellä, mutta huomaathan, että
+    <b>otamme yhteyttä vain jos hyväksymme hakemuksesi</b>.</p>
+    <LinkCard href="https://forms.gle/itLzohEQm6iKtAGfA" title="Moderaattori" description="Moderointitehtävät painottuvat pelaajien auttamiseen ja opastamiseen. Näiden lisäksi tehtäviin kuuluu mm. chat-keskustelun valvonta ja tikettien hoitaminen." />
+  </div>
+  <iframe class="discord" src="https://discord.com/widget?id=1459212137732767888&theme=dark" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+</div>

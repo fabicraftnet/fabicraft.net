@@ -3,8 +3,27 @@
     --sl-content-width: 60rem;
 }
 
+.split {
+    gap: 1rem;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.full {
+    width: 100%;
+}
+
 .discord {
     height: 32rem;
+    width: 100%;
+    border-radius: .5rem;
+    flex-shrink: 0;
 }
 
 .site-title img {
@@ -33,4 +52,13 @@
       --sl-color-asides-text-accent: #ef4444;
       --sl-color-asides-border: #ef4444;
       background-color: var(--sl-color-gray-6);
+}
+
+@media(min-width: 48rem) {
+    .split {
+        display: flex;
+    }
+    .discord {
+        width: 20rem;
+    }
 }
