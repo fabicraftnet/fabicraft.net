@@ -15,6 +15,6 @@
     "sharp": "0.34.x"
   },
   "devDependencies": {
-    "wrangler": "4.81.x"
+    "wrangler": "4.83.x"
   }
 }
