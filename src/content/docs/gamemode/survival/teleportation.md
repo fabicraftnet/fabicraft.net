@@ -26,7 +26,7 @@ Voit pyytää lupaa teleportata toisiin pelaajiin komennolla `/tpa <pelaaja>`.
 
 Voit vastata sinulle laitettuihin teleporttauspyyntöihin painamalla "Hyväksy"- tai "Hylkää" painiketta.
 
-![tpa-buttons](../../../assets/docs/survival/tpa-buttons.png)
+![tpa-buttons](../../../../assets/docs/survival/tpa-buttons.png)
 
 Voit myös käyttää komentoja `/tpaccept` (hyväksy) tai `/tpdeny` (hylkää).
 

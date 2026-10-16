@@ -14,12 +14,12 @@ Oman tontin luominen onnistuu oikeaklikkaamalla kultalapiolla suojattavan alueen
 
 Aloita klikkaamalla kultalapiolla ensimmäistä kulmaa, jonka jälkeen kulma muuttuu timanttipalikaksi.
 
-![claim-creation-1](../../../assets/docs/survival/protection/claim-creation-1.png)
+![claim-creation-1](../../../../assets/docs/survival/protection/claim-creation-1.png)
 
 Tämän jälkeen klikkaa vastakkaista kulmaa.
 Tontin rajat ilmestyvät nyt näkyviin merkaten, että tontti on luotu.
 
-![claim-creation-2](../../../assets/docs/survival/protection/claim-creation-2.png)
+![claim-creation-2](../../../../assets/docs/survival/protection/claim-creation-2.png)
 
 Tontin voi myös luoda komennolla `/claim <säde>`, kun kultalapio on kädessä. 
 
@@ -31,16 +31,16 @@ Voit käyttää tikkua hahmottaaksesi missä tontti on.
 Kun oikeaklikkaat tikulla kohti tonttia, näyttää se tontin rajat.
 Voit myös mennä kyykkyyn klikatessasi, jolloin tikku näyttää kaikki lähellä olevat tontit.
 
-![claim-resize-1](../../../assets/docs/survival/protection/claim-resize-1.png)
+![claim-resize-1](../../../../assets/docs/survival/protection/claim-resize-1.png)
 
 Ota kultalapio käyteen ja klikkaa tontin kulmaa, jonka paikkaa haluat vaihtaa.
 Chattiin tuleva viesti kertoo muokkaavasi tontin kokoa.
 
-![claim-resize-2](../../../assets/docs/survival/protection/claim-resize-2.png)
+![claim-resize-2](../../../../assets/docs/survival/protection/claim-resize-2.png)
 
 Seuraavaksi klikkaa palikkaa, johon haluat kulman siirtyvän. Valmis :)
 
-![claim-resize-3](../../../assets/docs/survival/protection/claim-resize-3.png)
+![claim-resize-3](../../../../assets/docs/survival/protection/claim-resize-3.png)
 
 :::note
 Kulmaa siirrettäessä kultalapion täytyy olla koko ajan kädessä tai valinta nollaantuu
@@ -82,11 +82,11 @@ Esim. Haluat luoda farmin, jota kaikki pelaajat voivat käyttää.
 Alitonttien luonti toimii samalla tavalla kuin tavallisten tonttien luonti: kultalapion avulla.
 Luotu alitontti tulee näkyviin tontin sisälle rautapalikoilla.
 
-![subclaims-1](../../../assets/docs/survival/protection/subclaims-1.png)
+![subclaims-1](../../../../assets/docs/survival/protection/subclaims-1.png)
 
 Alitontteja luodaksesi tulee sinun ottaa käyttöön alitonttitila komennolla `/subdivideclaims`.
 
-![subclaims-2](../../../assets/docs/survival/protection/subclaims-2.png)
+![subclaims-2](../../../../assets/docs/survival/protection/subclaims-2.png)
 
 Esim. Pelaajan tarvitsee päästä käsiksi vain muutamaan arkkuun tontin sisällä, mutta tontilla on myös muita arkkuja joihin he eivät saa koskea.
 Voit tällöin luoda alitontin, jonka sisälle voit antaa oikeudet arkkujen avaamiseen (containertrust), jolloin muut tontin arkut jäävät silti suojatuksi.
@@ -95,7 +95,7 @@ Oletuksena, tontin oikeudet siirtyvät sen sisällä oleviin alitontteihin. Täm
 
 Pääset takaisin tavalliseen tonttitilaan kirjoittamalla komennon `/claim`.
 
-![subclaims-3](../../../assets/docs/survival/protection/subclaims-3.png)
+![subclaims-3](../../../../assets/docs/survival/protection/subclaims-3.png)
 
 
 ## Ryhmät
