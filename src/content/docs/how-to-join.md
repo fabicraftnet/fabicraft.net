@@ -10,7 +10,6 @@ Pelataksesi FabiCraftissa tarvitset Minecraftin Java-version. Tämä tarkoittaa 
 Palvelimelle liittyminen vaatii Discord-linkityksen.
 
 ## Lisää itsesi Discordissa
-
 Liity [Fabicraftin Discordiin](https://discord.gg/TJyAWjztUD) ja lue läpi `info-ja-säännöt` -kanava.
 
 Kirjoita `/link <minecraftKäyttäjänimi>` mille tahansa tekstikanavalle.
@@ -19,7 +18,6 @@ Näin linkitys on valmis ja voit liittyä palvelimelle!
 
 
 ## Palvelimen lisääminen Minecraftissa
-
 Valitse alkuvalikosta `Moninpeli`.
 
 ![how-to-join-1](../../assets/docs/how-to-join/how-to-join-1.png)

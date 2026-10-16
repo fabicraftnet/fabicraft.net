@@ -10,7 +10,6 @@ Pelaajalla on alussa **100 tonttipalikkaa**.
 Tonttipalikoita saa lisää pelaamalla FabiCraftin survivalissa (100 per tunti). Vapaiden tonttipalikoiden määrää voi tarkkailla komennolla `/claimblocks`.
 
 ## Tontin luonti
-
 Oman tontin luominen onnistuu oikeaklikkaamalla kultalapiolla suojattavan alueen kahta vastakkaista kulmaa.
 
 Aloita klikkaamalla kultalapiolla ensimmäistä kulmaa, jonka jälkeen kulma muuttuu timanttipalikaksi.
@@ -25,7 +24,6 @@ Tontin rajat ilmestyvät nyt näkyviin merkaten, että tontti on luotu.
 Tontin voi myös luoda komennolla `/claim <säde>`, kun kultalapio on kädessä. 
 
 ## Tontin koon muokkaus
-
 Tontin kokoa on mahdollista muuttaa myös jälkikäteen.
 Tämä onnistuu myös kultalapiota käyttämällä.
 
@@ -51,15 +49,14 @@ Kulmaa siirrettäessä kultalapion täytyy olla koko ajan kädessä tai valinta 
 Tontin laajentaminen katsottuun suuntaan onnistuu myös komennolla `/extendclaim <määrä>`.
 
 ## Tonttien poisto
-
 Voit poistaa tontin seisomalla sen sisällä ja kirjoittamalla komennon `/abandonclaim`.
 Mikäli haluat poistaa kaikki tonttisi, voit tehdä sen kirjoittamalla `/abandonallclaims`.
 
 :::tip
 Omistettujen tonttien listan näkee komennolla `/claimslist`
 :::
-## Oikeuksien jakaminen
 
+## Oikeuksien jakaminen
 Koska rakennuksesi on nyt suojattu muilta pelaajilta, vain sinä voit rakentaa siellä.
 Muille pelaajille voi kuitenkin jakaa eritasoisia oikeuksia, jotka oikeuttavat heitä tekemään tiettyjä asioita tontillasi.
 
@@ -79,7 +76,6 @@ Voit määrittää kaikkien pelaajien oikeuksia pistämällä `#public` komennon
 :::
 
 ## Alitontit
-
 Tonttien sisälle on mahdollista luoda alitontteja, joiden avulla pelaajaoikeuksien säätäminen voidaan tehdä vielä tarkemmin.
 Esim. Haluat luoda farmin, jota kaikki pelaajat voivat käyttää.
 
@@ -103,7 +99,6 @@ Pääset takaisin tavalliseen tonttitilaan kirjoittamalla komennon `/claim`.
 
 
 ## Ryhmät
-
 Sen sijaan, että määrittää jokaisen pelaajan oikeudet yksitellen jokaiselle tontille, voit luoda ryhmiä, joille voi määrittää oikeudet. Ryhmät ovat pelaaja kohteisia, mutta hallinointi oikeudelliset voivat nähdä ja käyttää tontin omistajan ryhmiä oikeuksien antamisessa.
 
 Pelaajia saa lisättyä ryhmään komennolla `/group <ryhmä> add <pelaaja1> <pelaaja2>`. Komennolla saa lisättyä yhden tai useamman pelaajan kerralla. Jos ryhmää ei ole olemassa, se luodaan automaattisesti.
@@ -121,7 +116,6 @@ Esim. `/accessortrust  @<ryhmä>`
 Tontin oikeudellisia ryhmiä ja pelaajia saa tutkittua komennolla `/claiminfo`.
 
 ## Porttikiellot
-
 Porttikieltojen avulla voi estää yksittäisten pelaajien pääsyn tontille.
 
 | Komento | Kuvaus |
